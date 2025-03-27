@@ -4,32 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Scientific Number Validator</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            text-align: center;
-            margin: 50px;
-        }
-        input {
-            padding: 10px;
-            margin: 10px;
-            width: 200px;
-        }
-        button {
-            padding: 10px 20px;
-            cursor: pointer;
-        }
-        #message {
-            margin-top: 20px;
-            font-weight: bold;
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <h2>Scientific Number Validator</h2>
     <input type="text" id="inputNumber" placeholder="Enter a number">
     <button onclick="validateNumber()">Check</button>
     <p id="message"></p>
+    
+    <div id="about">
+        <h3>About</h3>
+        <p><strong>Name:</strong> Aristo Kaunang</p>
+        <p><strong>NIM:</strong> 231011060017</p>
+        <p><strong>Prodi:</strong> Information System</p>
+    </div>
 
     <script>
         function validateNumber() {
